@@ -139,6 +139,9 @@ def minecraft_status(context):
     line = '[Login] {0} [Session] {1}'.format(login, session)
     return line
 
+@bot.command
+def stauts(context):
+    return 'DIZNATCH IS A FOOL'
 
 @bot.command
 @utils.cooldown(bot)
@@ -180,7 +183,7 @@ def status(context):
 def is_x_up(context):
     server = find_server(context.line['regex_search'].group(1))
     if not server:
-        return
+        return 'failed to find server'
 
     if server[0] == 'mumble.nerd.nu':
         context.args = '{0}:{1}'.format(server[0], server[1])
