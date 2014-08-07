@@ -6,8 +6,8 @@ class Config(object):
     TIMEOUT = 3000
     DEBUG = True
 
-    NICK = 'DiznatchIsAFoolBot'
-    REALNAME = 'https://github.com/buttscicles/RedditBot'
+    NICK = 'SenecaBot'
+    REALNAME = 'https://github.com/mattman00000/RedditBot'
     CHANNELS = ['#pveseneca']
 
     ADMINS = ['*!*mattman00@mattman00000.user.gamesurge']
